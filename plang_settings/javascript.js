@@ -1,5 +1,5 @@
 module.exports = {js:{
-    'language':'javascxript',
+    'language':'javascript',
     'comment':{
         'multuiline':{
             start: '/*',

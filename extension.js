@@ -29,7 +29,7 @@ async function createDescription() {
   const response = await axios.post(
     "https://api.openai.com/v1/engines/davinci-codex/completions",
     {
-      prompt: setting.comment.singleline + setting.language + "\n"  + text + "\n" + setting.comment.multiline.start +  "Here's what the above code is doing:",
+      prompt: setting.comment.singleline + setting.language + "\n"  + text + "\n" + setting.comment.multiline.start +  "Here's what the above code is doing:\n1.",
       temperature: 0,
       max_tokens: text.length * 4,
       top_p: 1,
