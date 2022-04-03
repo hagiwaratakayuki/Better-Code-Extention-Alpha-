@@ -1,65 +1,31 @@
-# codex README
+## What it does
 
-This is the README for your extension "codex". After writing up a brief description, we recommend including the following sections.
+This extension give you others viewpoint for your code.  It shows you logic of your code and code based on that logic. 
+It is expected another way implement of your logic (not refactor),  and in some cases it shows logic bug in the form of odd logic and code.
 
-## Features
+## Inspiration
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Japanese internet culture "再翻訳(saihonnyaku, retranslation)", Machine translate from Japanese language to some language and translate it  to  Japanese language. 
+Off course, It shows odd result. But if base text is simple and easy to understand enough, result is not odd. 
+ 
+## How to Use
 
-For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Prepare OpenAI Coadex APIKey
+2. Download & open directry VSCode
+3. Open extension.js
+4. Run as VScode extention  
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-## Requirements
+## Accomplishments that we're proud of
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Show first step of "with ai" style. Ai should be become as "Artificial Others"
 
-## Extension Settings
+## What we learned
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Machine Generate Code need same more stability.　but it light for future. 
 
-For example:
 
-This extension contributes the following settings:
+## What's next for Better Code Extension Alpha
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Like a ai based rubber duck method
